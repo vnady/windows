@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>H:\software\pcl1.7_32\Boost\include;H:\software\pcl1.7_32\FLANN\include;H:\software\pcl1.7_32\OpenNI\Include;H:\software\pcl1.7_32\PCL 1.7\include;H:\software\pcl1.7_32\Qhull\include;H:\software\pcl1.7_32\Eigen\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>
+    </ReferencePath>
+    <LibraryPath>H:\software\pcl1.7_32\Boost\lib;H:\software\pcl1.7_32\flann\lib;H:\software\pcl1.7_32\OpenNI\Lib;H:\software\pcl1.7_32\PCL 1.7\lib;H:\software\pcl1.7_32\qhull\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>pcl_common_release.lib;pcl_features_release.lib;pcl_filters_release.lib;pcl_gtest_release.lib;pcl_io_release.lib;pcl_io_ply_release.lib;pcl_kdtree_release.lib;pcl_keypoints_release.lib;pcl_ml_release.lib;pcl_octree_release.lib;pcl_openni_image_release.lib;pcl_openni_pcd_recorder_release.lib;pcl_openni_save_image_release.lib;pcl_outofcore_release.lib;pcl_recognition_release.lib;pcl_registration_debug.lib;pcl_sample_consensus_release.lib;pcl_search_release.lib;pcl_segmentation_release.lib;pcl_stereo_release.lib;pcl_surface_release.lib;pcl_tracking_release.lib;pcl_visualization_release.lib;boost_chrono-vc100-mt-1_49.lib;boost_date_time-vc100-mt-1_49.lib;boost_filesystem-vc100-mt-1_49.lib;boost_graph-vc100-mt-1_49.lib;boost_graph_parallel-vc100-mt-1_49.lib;boost_iostreams-vc100-mt-1_49.lib;boost_locale-vc100-mt-1_49.lib;boost_math_c99-vc100-mt-1_49.lib;boost_math_c99f-vc100-mt-1_49.lib;boost_math_tr1-vc100-mt-1_49.lib;boost_math_tr1f-vc100-mt-1_49.lib;boost_mpi-vc100-mt-1_49.lib;boost_prg_exec_monitor-vc100-mt-1_49.lib;boost_program_options-vc100-mt-1_49.lib;boost_random-vc100-mt-1_49.lib;boost_regex-vc100-mt-1_49.lib;boost_serialization-vc100-mt-1_49.lib;boost_signals-vc100-mt-1_49.lib;boost_system-vc100-mt-1_49.lib;boost_thread-vc100-mt-1_49.lib;boost_timer-vc100-mt-1_49.lib;boost_unit_test_framework-vc100-mt-1_49.lib;boost_wave-vc100-mt-1_49.lib;boost_wserialization-vc100-mt-1_49.lib;libboost_chrono-vc100-mt-1_49.lib;libboost_date_time-vc100-mt-1_49.lib;libboost_filesystem-vc100-mt-1_49.lib;libboost_graph_parallel-vc100-mt-1_49.lib;libboost_iostreams-vc100-mt-1_49.lib;libboost_locale-vc100-mt-1_49.lib;libboost_math_c99-vc100-mt-1_49.lib;libboost_math_c99f-vc100-mt-1_49.lib;libboost_math_tr1-vc100-mt-1_49.lib;libboost_math_tr1f-vc100-mt-1_49.lib;libboost_mpi-vc100-mt-1_49.lib;libboost_prg_exec_monitor-vc100-mt-1_49.lib;libboost_program_options-vc100-mt-1_49.lib;libboost_random-vc100-mt-1_49.lib;libboost_regex-vc100-mt-1_49.lib;libboost_serialization-vc100-mt-1_49.lib;libboost_signals-vc100-mt-1_49.lib;libboost_system-vc100-mt-1_49.lib;libboost_test_exec_monitor-vc100-mt-1_49.lib;libboost_thread-vc100-mt-1_49.lib;libboost_timer-vc100-mt-1_49.lib;libboost_unit_test_framework-vc100-mt-1_49.lib;libboost_wave-vc100-mt-1_49.lib;libboost_wserialization-vc100-mt-1_49.lib;flann.lib;flann_cpp_s.lib;flann_cuda_s.lib;flann_s.lib;NiSampleExtensionModule.lib;NiSampleModule.lib;OpenNI.jni.lib;openNI.lib;qhull6.lib;qhullcpp.lib;qhullstatic.lib;qhullstatic_p.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

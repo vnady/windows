@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\Qt\4.8.3\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LibraryPath>D:\Qt\4.8.3\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>phonond4.lib;QAxContainerd.lib;QAxServerd.lib;Qt3Supportd4.lib;QtCLucened4.lib;QtCored4.lib;QtDeclaratived4.lib;QtDesignerComponentsd4.lib;QtDesignerd4.lib;QtGuid4.lib;QtHelpd4.lib;qtmaind.lib;QtMultimediad4.lib;QtNetworkd4.lib;QtOpenGLd4.lib;QtScriptd4.lib;QtScriptToolsd4.lib;QtSqld4.lib;QtSvgd4.lib;QtTestd4.lib;QtUiToolsd.lib;QtWebKitd4.lib;QtXmld4.lib;QtXmlPatternsd4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

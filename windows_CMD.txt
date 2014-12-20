@@ -1,0 +1,37 @@
+cd /switch directory
+md /make a directory
+rd /remove directory
+dir /list directory
+copy /copy document
+del /delete document
+ren /rename document
+attrib /modify attribute
+type /print the content of the document to the console
+move /move document
+stdout: >,>> additional
+stderr: 2>
+stdin : <
+find /serach equ to grep in linux
+sort /sort a string
+fc /compare two documents
+chkdsk /check file system
+convert /switch FAT32 file system to NTFS file system
+diskpart /create or modify portition
+takeown /administrator
+tasklist /list tasks
+taskkill /kill a process
+tree /display the directory structure in the form of a tree
+xcopy /strengthen document copy. can copy a dir.
+set /set a value for a variable
+%Tmp% /use the variable Tmp
+PATH /path for executable program 
+pause /suspend the current script
+call /call a subprogram or function
+goto /jump to a mark
+rem /note
+echo /type some thing to the console
+choice /reminad
+wget/curl /download file from web by http procotol
+netsh /switch network cfg
+ImageMagick /zoom image
+
